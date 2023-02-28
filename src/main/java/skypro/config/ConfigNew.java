@@ -36,6 +36,7 @@ public class ConfigNew {
         } catch (PropertyVetoException e) {
             throw new RuntimeException(e);
         }
+
         return dataSource;
     }
 }
